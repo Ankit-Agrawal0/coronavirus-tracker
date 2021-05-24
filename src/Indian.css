@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.indian_cases{
+  box-shadow: 5px 5px 50px gray;
+  border-radius: 10px;
+  float: left;
+  width: 20vw;
+  height: 100px;
+  background-color: white;
+  text-align: left;
+  position: relative;
+  margin: 15px;
+}
+
+.cases{
+  content: "";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  clear: both;
+}
+.icon{
+  position: relative;
+  right: 10px;
+  text-align: right;
+  font-size: 50px;
+  margin-top: -70px;
+  margin-right: 5%;
+  z-index: 1;
+  float: right;
+}
+.Indian, .Global{
+  background-color: White;
+}
+.subIcon{
+  margin-top: -10px;
+}
+.totalCases{
+  border-left: 6px solid #00B8D4;
+  color: #00B8D4;
+}
+.testCase{
+  border-left: 6px solid #00CC6A;
+  color: #00CC6A;
+}
+.activeCase{
+  border-left: 6px solid #FBC02D;
+  color: #FBC02D;
+}
+.recoveredCase{
+  border-left: 6px solid #66BB6A;
+  color: #66BB6A;
+}
+.population{
+  border-left: 6px solid #0078D7;
+  color: #0078D7;
+}
+.deathCase{
+  border-left: 6px solid #D32F2F;
+  color: #D32F2F;
+}
+.affected{
+  border-left: 6px solid #FF8C00;
+  color: #FF8C00;
+}
+.new{
+  font-size: 12px !important;
+  margin-top: 3px !important;
+  padding: 0;
+  position: realtive;
+}
+span{
+  color: #263238;
+  font-size: 22px;
+  font-weight: 350;
+  padding-left: 10px;
+}
+.indian_cases h3{
+  font-weight: 500;
+  margin-left: 8px;
+  margin-top: 5px;
+  position: relative;
+  font-size: 15px;
+}
+.tableTitle{
+  background-color: black;
+  color: white;
+}
+#heading2, #heading1, .state{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+#heading1{
+  margin-top: 6px;
+}
+
+.flag{
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+}
+.showAll{
+  text-align: center;
+  text-decoration: underline;
+}
+.time{
+  color: #F8D007;
+  text-align: center;
+  margin-top: 20px;
+}
+@media only screen and (max-width:992px){
+  .indian_cases{
+    width: 40vw;
+    margin: 20px;
+  }
+  .cases{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width:600px){
+  .indian_cases{
+    width: 80vw;
+    margin: 10px;
+  }
+  .cases{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

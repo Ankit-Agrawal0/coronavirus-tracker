@@ -1,0 +1,13 @@
+.AllGraph{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+@media (max-width:600px){
+  .AllGraph{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
